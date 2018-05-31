@@ -20,4 +20,10 @@ public class CalculatriceTest {
 		Assertions.assertEquals(2, calculette.addition(0, 2));
 		Assertions.assertEquals(27, calculette.addition(2, 25));
 	}
+
+	@Test
+	void testSoustraction() {
+		Assertions.assertEquals(2, calculette.soustraction(5, 3));
+		Assertions.assertEquals(12, calculette.soustraction(22, 10));
+	}
 }
